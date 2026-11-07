@@ -290,7 +290,7 @@ export default function App() {
 
     <footer className="site-footer" id="footer">
       <div className="footer-top"><a href="#home" className="brand"><span className="brand-mark"><Sparkles size={17} /></span>eventora<span className="brand-period">.</span></a><p>Making room for more good moments.</p><div className="socials"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><Instagram size={17} /></a><a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><Facebook size={17} /></a></div></div>
-      <div className="footer-bottom"><span>© 2026 EVENTORA. MADE FOR THE MOMENTS.</span><span>DESIGNED WITH INTENTION <Sparkles size={12} /></span><a href="#home">BACK TO TOP ↑</a></div>
+      <div className="footer-bottom"><span>© 2026 EVENTORA. MADE FOR THE MOMENTS.</span><span>DESIGNED WITH INTENTION <Sparkles size={12} /></span><span>MADE BY RITHWIK</span><a href="#home">BACK TO TOP ↑</a></div>
     </footer>
 
     {selected && <EventModal event={selected} onClose={() => setSelected(null)} onRegister={openRegister} />}
